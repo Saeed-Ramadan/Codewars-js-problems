@@ -52,11 +52,11 @@ console.log(quarterOf(7));
 ```
 #################################################################################################
 
-#Multiplication table for number
+# Multiplication table for number
 ### DESCRIPTION
-######Your goal is to return multiplication table for number that is always an integer from 1 to 10.
+###### Your goal is to return multiplication table for number that is always an integer from 1 to 10.
 
-######For example, a multiplication table (string) for number == 5 looks like below:
+###### For example, a multiplication table (string) for number == 5 looks like below:
 ```
 1 * 5 = 5
 2 * 5 = 10
@@ -71,7 +71,7 @@ console.log(quarterOf(7));
 P. S. You can use \n in string to jump to the next line.
 ```
 
-######Note: newlines should be added between rows, but there should be no trailing newline at the end. If you're unsure about the format, look at the sample tests.
+###### Note: newlines should be added between rows, but there should be no trailing newline at the end. If you're unsure about the format, look at the sample tests.
 
 ## the code:
 ```
@@ -100,4 +100,15 @@ function multiTable(number) {
 sul 3:
 
 const multiTable = n => Array.from(Array(10), (e, i) => `${++i} * ${n} = ${i * n}`).join('\n');
+```
+####################################################################################################
+
+# Remove String Spaces
+### DESCRIPTION
+###### Simple, remove the spaces from the string, then return the resultant string.
+## the code:
+```
+function noSpace(x){
+return  x.replaceAll(' ', '');
+}
 ```
